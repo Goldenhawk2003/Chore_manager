@@ -1,0 +1,68 @@
+.log{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    display: block;
+    text-align: center;
+    border: 2px solid #333;
+    max-width: 250px;
+    max-height: 250px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body{
+    background: blanchedalmond;
+    color: black;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+label{
+    display: block;
+    padding-top: 10px;
+}
+a{
+    display: block;
+}
+
+/* TAB BUTTONS AND TEXT */
+.tabs {
+    background-color: #f4f4f4;
+    padding: 0;
+    display: flex;
+    text-align:center;
+    align-items: center;
+  }
+  
+  .tab-btn {
+    background-color: var(--banner-color);
+    color: var(--banner-text);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .tab-btn:hover {
+  }
+  
+  .tab-content {
+    padding: 20px;
+    text-align: center;
+    
+
+  }
+
+  .tab-btn, .dark-mode{
+    line-height: 1;
+    font-size: 16px;
+    flex:1;
+  }

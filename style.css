@@ -25,6 +25,10 @@ h1{
     text-align: center;
     padding-bottom: 20px;
 }
+h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
 
 label{
     display: block;
@@ -68,14 +72,19 @@ a{
   }
 
 
-
-.nation{
-  display: block;
-}
 select{
   max-width: 35%;
 
 }
 
 /* MAIN.HTML */
+.chore_mng{
+  max-width: 10%; 
+  background-color:#295;
+  border-radius: 20%;
+  color: #fff;
+  align-self: self-end;
 
+
+  
+}

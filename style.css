@@ -66,3 +66,16 @@ a{
     font-size: 16px;
     flex:1;
   }
+
+
+
+.nation{
+  display: block;
+}
+select{
+  max-width: 35%;
+
+}
+
+/* MAIN.HTML */
+
